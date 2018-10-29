@@ -21,11 +21,13 @@
         color: fade(white, 80%);
         outline: none;
         background-color: transparent;
+        cursor: url(https://i.imgur.com/KrJZqu2.png), auto;
       }
       &:active,
       &:focus {
         outline: none;
         background-color: transparent;
+        cursor: url(https://i.imgur.com/KrJZqu2.png), auto;
       }
     }
   }
@@ -45,9 +47,11 @@
       color: fade-out($white, .5);
       &:hover {
         color: fade-out($white, .25);
+        cursor: url(https://i.imgur.com/KrJZqu2.png), auto;
       }
       &:active {
         color: white;
+        cursor: url(https://i.imgur.com/KrJZqu2.png), auto;
       }
     }
     &.navbar-shrink {
@@ -61,14 +65,17 @@
         border-bottom: 0.25rem solid transparent;
         &:hover {
           color: $primary;
+          cursor: url(https://i.imgur.com/KrJZqu2.png), auto;
         }
         &:active {
           color: darken($primary, 15%);
+          cursor: url(https://i.imgur.com/KrJZqu2.png), auto;
         }
         &.active {
           color: $primary;
           outline: none;
           border-bottom: 0.25rem solid $primary;
+          cursor: url(https://i.imgur.com/KrJZqu2.png), auto;
         }
       }
     }
