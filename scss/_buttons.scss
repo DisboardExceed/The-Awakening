@@ -12,12 +12,14 @@
   background-color: $primary;
   &:hover {
     background-color: darken($primary, 10%);
+    cursor: url(https://i.imgur.com/KrJZqu2.png), auto;
   }
   &:focus {
     background-color: darken($primary, 10%);
     color: white;
   }
   &:active {
+    cursor: url(https://i.imgur.com/KrJZqu2.png), auto;
     background-color: darken($primary, 15%) !important;
   }
 }
